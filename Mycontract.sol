@@ -4,8 +4,8 @@ pragma solidity ^0.8.0;
 contract module1 {
     function errorhandle(uint256 a, uint256 b) public pure returns (uint256) {
         // Using require()
-        require(a != 10, "a should not be ten");
-        require(b != 20, "b should not be twenty");
+        require(a != 5, "a should not be five");
+        require(b != 10, "b should not be ten");
 
         // Using assert()
         uint256 result = a - b;
